@@ -23,7 +23,7 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/ksc89kim/iOS-MagnifyingGlass-moolban'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = 'MIT'
   s.author           = { 'ksc89kim' => 'ksc89kim@naver.com' }
   s.source           = { :git => 'https://github.com/ksc89kim/iOS-MagnifyingGlass-moolban.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
