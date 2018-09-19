@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'iOS-MagnifyingGlass-moolban'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of iOS-MagnifyingGlass-moolban.'
+  s.summary          = 'moolban upload iOS-MagnifyingGlass-moolban'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,13 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'iOS-MagnifyingGlass-moolban/MagnifyingGlass/**/*'
+  s.source_files = 'MagnifyingGlass/**/*'
   
   # s.resource_bundles = {
   #   'iOS-MagnifyingGlass-moolban' => ['iOS-MagnifyingGlass-moolban/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/MagnifyingGlass/**/*.h'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
