@@ -16,7 +16,7 @@ static CGFloat const kACMagnifyingGlassDefaultScale = 1.5;
 
 @implementation ACMagnifyingGlass
 
-@synthesize viewToMagnify, touchPoint, touchPointOffset, scale, scaleAtTouchPoint;
+@synthesize viewToMagnify, touchPoint, touchPointOffset, scale, scaleAtTouchPoint, glassPositionX;
 
 - (id)init {
     self = [self initWithFrame:CGRectMake(0, 0, kACMagnifyingGlassDefaultRadius*2, kACMagnifyingGlassDefaultRadius*2)];
