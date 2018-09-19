@@ -30,13 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'iOS-MagnifyingGlass-moolban/Classes/**/*'
+  s.source_files = 'iOS-MagnifyingGlass-moolban/MagnifyingGlass/**/*'
   
   # s.resource_bundles = {
   #   'iOS-MagnifyingGlass-moolban' => ['iOS-MagnifyingGlass-moolban/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'Pod/MagnifyingGlass/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
