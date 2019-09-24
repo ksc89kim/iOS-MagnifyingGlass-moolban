@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iOS-MagnifyingGlass-moolban'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'moolban upload iOS-MagnifyingGlass-moolban'
 
 # This description is used to generate tags and improve search results.
@@ -28,13 +28,13 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/ksc89kim/iOS-MagnifyingGlass-moolban.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'MagnifyingGlass/**/*'
   
-  # s.resource_bundles = {
-  #   'iOS-MagnifyingGlass-moolban' => ['iOS-MagnifyingGlass-moolban/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'iOS-MagnifyingGlass-moolban' => ['iOS-MagnifyingGlass-moolban/Resources/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
