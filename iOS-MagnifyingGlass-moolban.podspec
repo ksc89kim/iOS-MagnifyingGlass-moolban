@@ -30,11 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'MagnifyingGlass/**/*'
-  
-  s.resource_bundles = {
-    'iOS-MagnifyingGlass-moolban' => ['iOS-MagnifyingGlass-moolban/Resources/*.png']
-  }
+  s.source_files = 'MagnifyingGlass/Sources/*.{h,m}'
+  s.resources = ['MagnifyingGlass/Resources/*.{png,jpg}']
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
